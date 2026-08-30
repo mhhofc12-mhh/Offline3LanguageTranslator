@@ -6,7 +6,10 @@
         android:allowBackup="true"
         android:label="3 Language Translator"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Translator">
+        android:theme="@style/Theme.Translator"
+        android:icon="@drawable/3 TRANSLATOR"
+android:roundIcon="@drawable/3 TRANSLATOR"
+        >
         <activity
             android:name=".MainActivity"
             android:exported="true">
