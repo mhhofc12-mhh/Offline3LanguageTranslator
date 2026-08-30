@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 Language Translator"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#111827"
+            android:gravity="center"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Offline translation • Models may need first-time download"
+            android:textSize="13sp"
+            android:textColor="#667085"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🇧🇩  বাংলা"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/banglaInput"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="এখানে বাংলা লিখুন..."
+            android:gravity="top|start"
+            android:padding="14dp"
+            android:background="@drawable/box_bg"
+            android:inputType="textMultiLine"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+            <Button android:id="@+id/bnVoice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🎤"/>
+            <Button android:id="@+id/bnSpeak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🔊"/>
+            <Button android:id="@+id/bnCopy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📋"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/swapButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⇅  SWAP"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🇬🇧  English"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/englishInput"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Type English here..."
+            android:gravity="top|start"
+            android:padding="14dp"
+            android:background="@drawable/box_bg"
+            android:inputType="textMultiLine"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+            <Button android:id="@+id/enVoice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🎤"/>
+            <Button android:id="@+id/enSpeak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🔊"/>
+            <Button android:id="@+id/enCopy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📋"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🇸🇦  العربية"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="end"
+            android:paddingTop="12dp"
+            android:paddingBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/arabicInput"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="اكتب هنا..."
+            android:gravity="top|start"
+            android:padding="14dp"
+            android:background="@drawable/box_bg"
+            android:inputType="textMultiLine"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+            <Button android:id="@+id/arVoice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🎤"/>
+            <Button android:id="@+id/arSpeak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🔊"/>
+            <Button android:id="@+id/arCopy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📋"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</ScrollView>
