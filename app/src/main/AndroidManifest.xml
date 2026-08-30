@@ -7,9 +7,9 @@
         android:label="3 Language Translator"
         android:supportsRtl="true"
         android:theme="@style/Theme.Translator"
-        android:icon="@drawable/3 TRANSLATOR"
-android:roundIcon="@drawable/3 TRANSLATOR"
-        >
+        android:icon="@drawable/translator_logo"
+        android:roundIcon="@drawable/translator_logo">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -18,5 +18,6 @@ android:roundIcon="@drawable/3 TRANSLATOR"
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 </manifest>
